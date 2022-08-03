@@ -1,7 +1,7 @@
 > Ce repo est un fork d'[HiberFile](https://github.com/HiberFile/hiberfile) en ayant une compatibilité avec l'API d'[EteFile](https://github.com/johan-perso/etefile-api).  
 > Le lien de l'api est à entrer dans le fichier .env (voir le Getting Started).  
 > Cette version n'est pas compatible avec l'API originale d'HiberFile.  
-> Les mentions légales et quelques autres élements n'ont pas été modifiés, et ne sont pas représentatifs de la version originale.
+> Les mentions légales et quelques autres élements n'ont pas été modifiés, et ne sont pas représentatifs.
 
 
 ### Problèmes
