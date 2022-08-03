@@ -18,22 +18,22 @@ export default class Account extends VuexModule {
     this.userId = options.userId;
     this.token = options.token;
 
-    localStorage.setItem('token', options.token);
-    localStorage.setItem('userId', options.userId);
-    localStorage.setItem('email', options.email);
+    sessionStorage.setItem('token', options.token);
+    sessionStorage.setItem('userId', options.userId);
+    sessionStorage.setItem('email', options.email);
   }
 
   @Mutation
   logInLocalStorage() {
     if (
-      localStorage.getItem('email') &&
-      localStorage.getItem('userId') &&
-      localStorage.getItem('token')
+      sessionStorage.getItem('email') &&
+      sessionStorage.getItem('userId') &&
+      sessionStorage.getItem('token')
     ) {
       this.loggedIn = true;
-      this.email = localStorage.getItem('email');
-      this.userId = localStorage.getItem('userId');
-      this.token = localStorage.getItem('token');
+      this.email = sessionStorage.getItem('email');
+      this.userId = sessionStorage.getItem('userId');
+      this.token = sessionStorage.getItem('token');
     }
   }
 
@@ -44,8 +44,8 @@ export default class Account extends VuexModule {
     this.userId = null;
     this.token = null;
 
-    localStorage.removeItem('token');
-    localStorage.removeItem('userId');
-    localStorage.removeItem('email');
+    sessionStorage.removeItem('token');
+    sessionStorage.removeItem('userId');
+    sessionStorage.removeItem('email');
   }
 }

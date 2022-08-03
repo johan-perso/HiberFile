@@ -91,3 +91,6 @@ sw.*
 
 # nuxt-storm files
 .components.gen.js
+
+# vercel files
+.vercel

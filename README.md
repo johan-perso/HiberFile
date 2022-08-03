@@ -1,3 +1,17 @@
+> Ce repo est un fork d'[HiberFile](https://github.com/HiberFile/hiberfile) en ayant une compatibilité avec l'API d'[EteFile](https://github.com/johan-perso/etefile-api).  
+> Le lien de l'api est à entrer dans le fichier .env (voir le Getting Started).  
+> Cette version n'est pas compatible avec l'API originale d'HiberFile.  
+> Les mentions légales et quelques autres élements n'ont pas été modifiés, et ne sont pas représentatifs de la version originale.
+
+
+### Problèmes
+
+Le site n'a eu que très peu de modifications et comporte quelques problèmes. *Si un développeur NuxtJS passe par là et veut bien contribuer, merci !*
+
+* Lorsqu'il est obligé d'utiliser un compte (dans la configuration de l'API), mais que vous tentez d'upload un fichier sans être connecté, le site reste bloqué sur "Chargement" à l'infini.
+* Il est impossible de créér/supprimer un compte, de réinisialiser un mot de passe et de définir des webhooks, puisque ces fonctionnalités n'ont pas encore été développées dans l'API.
+
+
 <p align="center">
   <img
     width="400"
@@ -48,7 +62,7 @@
 
 ## ❓ Why
 
-We created HiberFile to make it easy for casual users to share large files (up to 50GB). HiberFile is a free, convenient, fast and secure platform.
+We created HiberFile to make it easy for casual users to share files. HiberFile is a free, convenient, fast and secure platform.
 ## 🚀 Quick start
 
 ### Prerequisites
@@ -60,13 +74,13 @@ We created HiberFile to make it easy for casual users to share large files (up t
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/hiberfile/hiberfile.git
+   git clone https://github.com/johan-perso/etefile-web.git
    ```
 
 2. Install dependancies:
 
    ```sh
-   cd hiberfile && npm install
+   cd etefile-web && npm install
    ```
    
 3. Create the .env file and edit it (here is [an example](/.env.example)):

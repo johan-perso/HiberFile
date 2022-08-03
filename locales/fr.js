@@ -116,7 +116,7 @@ export default {
 	user_already_exists: 'Un utilisateur avec cette adresse e-mail existe déjà.',
 	user_webhooks: 'Webhooks utilisateur',	
 	valid_since: 'Valables dès le 1er décembre 2021',
-	version: 'Version 2021.3 du 1er décembre 2021',
+	version: 'Version 2022.8 du 1er décembre 2021',
 	waiting_for_file: 'En attente du fichier...',
 	webhook_added: 'Webhook ajouté',
 	webhook_downloading: 'Webhook : un téléchargement a commencé',

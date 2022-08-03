@@ -50,7 +50,6 @@ export default async (
             `${apiUrl}/files/create`,
             {
               name: file.name,
-              chunksNumber,
               private: privateFile,
               webhooks
             },
@@ -91,7 +90,7 @@ export default async (
       return async () => {
         let chunkProgressing = 0;
 
-        const response = await axios.put(uploadUrls[i], chunk, {
+        const response = await axios.post(uploadUrls[i], chunk, {
           onUploadProgress: (progressEvent) => {
             uploadProgress -= chunkProgressing;
 

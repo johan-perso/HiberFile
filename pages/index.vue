@@ -100,16 +100,6 @@
                         "
                         @click.native="uploadFile"
                       />
-                      <i18n
-                        v-if="state !== 'upload' && state !== 'zip'"
-                        class="text-blue-700 text-sm text-center"
-                        path="max_filesize"
-                        tag="p"
-                      >
-                        <template #number>
-                          <span>15</span>
-                        </template>
-                      </i18n>
                     </div>
                   </div>
                 </div>

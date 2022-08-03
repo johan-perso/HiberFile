@@ -10,7 +10,7 @@
         >
         &nbsp;-&nbsp;
         <a
-          href="https://github.com/hiberfile/hiberfile"
+          href="https://github.com/johan-perso/etefile-api"
           target="_blank"
           class="underline"
           >GitHub</a
@@ -26,7 +26,7 @@
               : ''
           "
           target="_blank"
-          >v2021.3</a
+          >v2022.8</a
         >
         - © 2022 HiberFile Team -
         <nuxt-link :to="localePath('/mentions')">

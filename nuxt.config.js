@@ -22,11 +22,7 @@ export default {
           'HiberFile - Fast, simple and free file sharing service.'
       }
     ],
-    script: [
-      {
-        src: 'matomo.js'
-      }
-    ],
+    script: [],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     noscript: [
       {
@@ -90,9 +86,9 @@ export default {
     langDir: './locales/',
     detectBrowserLanguage: {
       useCookie: true,
-      alwaysRedirect: true
+      alwaysRedirect: false
     },
-    defaultLocale: 'en'
+    defaultLocale: 'fr'
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
